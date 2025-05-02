@@ -5,8 +5,10 @@ FEATURES
 Ce code permet de sauvegarder les images présentées sur l'ecran d'accueil dans un dossier. 
 Le dossier d'origine est l'endroit où Microsoft sauvegarde ces fichiers, il n'est pas à changer.
 Les deux autres dossiers sont des dossiers par défaut, personnalisable à l'envie. 
-Le dossier transitoire '_temp' est utilisé pour opérer un certan nombre d'opération sur les fichiers, comme le filtrage et l'ajout d'une extension
-Le dossier destination est l'endroit où seront finalement copié et comptés les images. 
+Le dossier transitoire '_temp' est utilisé pour opérer un certan nombre d'opération sur les fichiers, comme le filtrage et l'ajout d'une extension.
+Le dossier destination est l'endroit où seront finalement copié et comptés les images.
+Le fichier config.ini comprend les chemins relatifs vers les dossiers source/temporaire/destination.
+Le fichier history.txt implemente l'historique d'utilisation du code et le nombre de fichiers definitifs créés.
 
 ***
 Merci de m'envoyer vos commentaires ou vos suggestions d'améliorations ! 

@@ -1,6 +1,7 @@
 # Windows_Lock_Screen_Image_Recorder
 
-Fonctionnement:
+FEATURES
+
 Ce code permet de sauvegarder les images présentées sur l'ecran d'accueil dans un dossier. 
 Le dossier d'origine est l'endroit où Microsoft sauvegarde ces fichiers, il n'est pas à changer.
 Les deux autres dossiers sont des dossiers par défaut, personnalisable à l'envie. 
@@ -12,7 +13,7 @@ Merci de m'envoyer vos commentaires ou vos suggestions d'améliorations !
 ***
 
 
-Log History
+LOG HISTORY
 
 Version 1 : 
 - initiale relase sans fonction avec dossiers absolus 'en dur'

@@ -1,26 +1,26 @@
 # Windows_Lock_Screen_Image_Recorder
 
-FEATURES
+## FEATURES
 
-Ce code permet de sauvegarder les images présentées sur l'ecran d'accueil dans un dossier. 
-Le dossier d'origine est l'endroit où Microsoft sauvegarde ces fichiers, il n'est pas à changer.
-Les deux autres dossiers sont des dossiers par défaut, personnalisable à l'envie. 
-Le dossier transitoire '_temp' est utilisé pour opérer un certan nombre d'opération sur les fichiers, comme le filtrage et l'ajout d'une extension.
-Le dossier destination est l'endroit où seront finalement copié et comptés les images.
-Le fichier config.ini comprend les chemins relatifs vers les dossiers source/temporaire/destination.
-Le fichier history.txt implemente l'historique d'utilisation du code et le nombre de fichiers definitifs créés.
+Ce code permet de sauvegarder les images présentées sur l'ecran d'accueil dans un dossier.  
+Le dossier d'origine est l'endroit où Microsoft sauvegarde ces fichiers, il n'est pas à changer.  
+Les deux autres dossiers sont des dossiers par défaut, personnalisable à l'envie.   
+Le dossier transitoire '_temp' est utilisé pour opérer un certan nombre d'opération sur les fichiers, comme le filtrage et l'ajout d'une extension.  
+Le dossier destination est l'endroit où seront finalement copié et comptés les images.  
+Le fichier config.ini comprend les chemins relatifs vers les dossiers source/temporaire/destination.  
+Le fichier history.txt implemente l'historique d'utilisation du code et le nombre de fichiers definitifs créés.  
 
 ***
 Merci de m'envoyer vos commentaires ou vos suggestions d'améliorations ! 
 ***
 
 
-LOG HISTORY
+## LOG HISTORY
 
-Version 1 : 
+**Version 1**  
 - initiale relase sans fonction avec dossiers absolus 'en dur'
 
-Version 2 :
+**Version 2**
 - nettoyage et optimisation de code avec gestion d'erreur
 - creation de fonction
 - creation d'un fichier config.ini
@@ -38,3 +38,6 @@ Prochaines étapes :
     avoir une interface utilisateur montrant les images (type carroussel)
     pouvoir choisir celles que l'on veut garder / supprimer
     MIEUX: changer les noms des images avec ce qu'elles représentent
+
+  Created by Benoit Logeay
+  @2025 Windows Lock Screen Image Recorder

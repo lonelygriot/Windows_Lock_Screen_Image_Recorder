@@ -28,7 +28,8 @@ Merci de m'envoyer vos commentaires ou vos suggestions d'améliorations !
 - Ajout de l'historique dans le fichier config
 
 Prochaines étapes : 
-- enregistre le path dans le fichier init et entrer un boolean stipulant que l'exploration n'est plus à faire 
+- regarder dans history : si déjà executé à date, arreter
+- regarder le dossier final : commparer les noms de fichiers présents : proposer de copie si absent , si OK copier, sinon suivant, si pas suivant , arreter , sinon ignorer  
 - améliorer la gestion d'erreur
 - générer une erreur si le dossier origine n'existe pas ( pour x raison)
     - OPTION : si l'utilisateur rentre le dossier origine, le formater et le rentrer dans le fichier init   

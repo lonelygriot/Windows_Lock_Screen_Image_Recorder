@@ -4,6 +4,7 @@ from shutil import copy
 from PIL import Image
 from configparser import ConfigParser
 
+
 # returns the path made by USERPROFILE + config.ini path. 
 # creates the folder if not existing
 def creation_dossier_utilisateur(dossier_fichier_ini):
